@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Touch Numbers Game</title>
+</head>
+
+<body onload="init()">
+    <h1>Touch Numbers Game</h1>
+
+    <button onclick="newGame(this)">New Game</button>
+    <button class ="Easy" onclick="newGame(this)">Easy</button>
+    <button class ="Hard" onclick="newGame(this)">Hard</button>
+    <button class ="Extreme" onclick="newGame(this)">Extreme</button>
+    <div class = message></div>
+    <div class="timer"></div>
+    <div>
+        <table>
+            <tbody class="board"></tbody>
+        </table>
+    </div>
+
+
+    <!-- <script src="js/util.js"></script> -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

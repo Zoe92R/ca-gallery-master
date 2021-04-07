@@ -1,0 +1,100 @@
+.shown {
+    background-color: rgb(240, 190, 175);
+}
+
+.unShown {
+    background-color: rgb(245, 220, 212);
+}
+
+
+h1 {
+    margin: auto;
+    font-family:'Franklin Gothic Medium';
+}
+
+body{
+    background-color: rgb(255, 246, 242);
+}
+.theTable {
+    margin: auto;
+}
+
+.extra{
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+.board td {
+    width : 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 0.9em;
+}
+.board {
+    margin: 10px;
+    float: right;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.board td:hover {
+    background-color: rgb(240, 190, 175)
+}
+
+button:hover{
+    background-color: rgb(240, 190, 175);
+}
+
+.smileyReset{
+    display: inline;
+    margin-top: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 22px;
+    border-color: brown;
+}
+
+.timer{
+    padding: 2px;
+    border: 2.5px solid;
+    border-color: brown;
+    display: inline;
+    font-size: 0.8em;
+    margin: 3px;
+}
+
+
+button{
+    margin-bottom: 5px;
+    margin: 5px;
+    background-color: rgb(235, 212, 204);
+    border: 2px solid;
+    border-color: brown;
+}
+
+.lives{
+    display: inline;
+    padding: 2.5px;
+    border: 2px solid;
+    border-color: brown;
+    font-size: 0.8em;
+    margin: 3px;
+
+
+}
+
+.clues {
+    display: inline;
+    padding: 2.5px;
+    border: 2px solid;
+    border-color: brown;
+    font-size: 0.8em;
+}
+
+
+
