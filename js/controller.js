@@ -17,7 +17,7 @@ var gProjs = [
     "title": "Touch the Nums",
     "desc": "Touch the nums is a board game. The player should click the buttons in a sequnce until all numbers are clicked.",
     "url": "projs/touchnums",
-    "publishedAt": 1448693940000,
+    "publishedAt": 2021,
     "img": "touchnums.jpg",
     "labels": ["Matrixes", ",Games"]
   },
@@ -27,10 +27,21 @@ var gProjs = [
     "title": "Pacman",
     "desc": "Pac-Man is a maze chase video game. The player controls the eponymous character through an enclosed maze. The objective of the game is to eat all of the dots placed in the maze while avoiding ghosts ",
     "url": "projs/pacman",
-    "publishedAt": 1448693940000,
+    "publishedAt": 2021,
     "img": "pacman.jpg",
     "labels": ["Matrixes", ",Games"]
+  },
+  {
+    "id": "ballboard",
+    "name": "ballboard",
+    "title": "Ball Board",
+    "desc": "Pac-Man is a maze chase video game. The player controls the eponymous character through an enclosed maze. The objective of the game is to eat all of the dots placed in the maze while avoiding ghosts ",
+    "url": "projs/ballboard",
+    "publishedAt": 2021,
+    "img": "ballboard.jpg",
+    "labels": ["Matrixes", ",Games"]
   }
+
 ]
 
 function initPage() {
